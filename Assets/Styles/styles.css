@@ -258,7 +258,7 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #hero p span {
@@ -367,8 +367,9 @@ section {
 
 .container-logos{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  
 }
 .content-image-logo{
   width: 100px;
