@@ -548,3 +548,59 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+/* ---------------------------------------------------------------------------
+Skills 
+----------------------------------------------------------------------*/
+
+.services .icon-box {
+  margin-bottom: 20px;
+}
+
+.services .icon{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #abd144 ;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #abd144;
+}
+
+.services .icon i {
+  color: #000;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #abd144;
+}
+
+.service .title {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.services .title a {
+  color: #343a40;
+}
+
+.services .title a:hover {
+  color: #abd144;
+}
+
+.services .description {
+  margin-left: 10px;
+  line-height: 24px;
+  font-size: 14px;
+}
