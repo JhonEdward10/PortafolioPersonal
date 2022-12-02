@@ -610,23 +610,23 @@ Contact
 ------------------------------------------------------------- */
 
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 20px;
 }
 
-.contact .info {
+/* .contact .info {
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
+} */
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #000;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #abd144;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -670,16 +670,4 @@ Contact
   height: 36px;
   transition: 0.3s;
   margin-right: 10px;
-}
-
-.contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
-}
-
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #149ddd;
-  color: #fff;
 }
