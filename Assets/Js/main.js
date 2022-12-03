@@ -122,18 +122,20 @@
     /**
      * Hero type effect
      */
-    const typed = select('.typed')
-    if (typed) {
-      let typed_strings = typed.getAttribute('data-typed-items')
-      typed_strings = typed_strings.split(',')
-      new Typed('.typed', {
-        strings: typed_strings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000
-      });
-    }
+     var typed = new Typed(".typing", {
+      strings: ["Full Stack Developer", "Front End Developer", "Back End Developer"],
+      typeSpeed: 100,
+      BackSpeed: 10,
+      loop: true,
+    });
+    
+    var typed2 = new Typed(".typing-name", {
+      strings: ["Jhon Edward Mendez"],
+      typeSpeed: 100,
+      BackSpeed: 10,
+      loop: true,
+    });
+    
   
     /**
      * Skills animation

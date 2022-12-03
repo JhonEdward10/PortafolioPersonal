@@ -84,7 +84,7 @@ h6 {
   }
   
   #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #abd144;
     color: #fff;
     text-decoration: none;
   }
@@ -127,7 +127,7 @@ h6 {
   }
   
   .back-to-top:hover {
-    background: #2eafec;
+    background: #abd144;
     color: #fff;
   }
   
@@ -198,7 +198,7 @@ h6 {
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
-    background-color: #149ddd;
+    background-color: #abd144;
     color: #fff;
     width: 40px;
     height: 40px;
